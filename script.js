@@ -1,7 +1,7 @@
 function time() {
-  var dateobj = new Date(); 
+  var dateobj = new Date();
   var y = dateobj.getFullYear();
-  var m = dateobj.getMonth();
+  var m = dateobj.getMonth() + 1;
   var d = dateobj.getDate();
   var h = dateobj.getHours();
   var mm = dateobj.getMinutes();
@@ -14,4 +14,4 @@ function time() {
   datetext.innerHTML =`${('0' + d).slice(-2)}/${('0' + m).slice(-2)}/${y}`
   setTimeout("time()",1000)
 }
-  
+

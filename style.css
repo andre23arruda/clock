@@ -3,12 +3,12 @@ body {
     background: linear-gradient(103deg, rgba(240,240,248,1) 0%, rgba(48,190,207,1) 100%, rgba(0,212,255,1) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    position: relative;
+
 }
 
 .clock-container {
     display: grid;
-    margin: 10%;    
+    margin: 10%;
 }
 
 .clocktext {
