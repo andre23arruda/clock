@@ -1,4 +1,4 @@
-# Cronometer
+# Clock
 
 ## https://andre23arruda.github.io/clock/index.html
 
