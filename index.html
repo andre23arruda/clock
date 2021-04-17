@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>Clock</title>
     <link rel="shortcut icon" href='assets/clock.ico' type="image/x-icon" />
 </head>
-<body onload="time()">
+<body>
     <div class="clock-container">
-        <div class="clocktext" id="clocktext"> </div>
-        <div class="datetext" id="datetext"> </div>
+        <div class="clock-text" id="clock-text-hour"></div>
+        <div class="clock-text-points">:</div>
+        <div class="clock-text" id="clock-text-minute"></div>
+        <div class="clock-text-points">:</div>
+        <div class="clock-text" id="clock-text-second"></div>
     </div>
-    <script src="script.js"></script>
+    <div id="date-text"></div>
+    <script src="index.js"></script>
 </body>
 </html>
