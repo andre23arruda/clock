@@ -1,0 +1,39 @@
+body {
+    background: rgb(240,240,248);
+    background: linear-gradient(103deg, rgba(240,240,248,1) 0%, rgba(48,190,207,1) 100%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.clock-container, #date-text {
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+    color: rgb(77, 99, 107);
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+.clock-text, .clock-text-points {
+    text-align: center;
+    font-size: 100pt;
+}
+
+#date-text {
+    text-align: center;
+    font-size: 50pt;
+}
+
+@media only screen and (max-width: 600px) {
+	.clock-container {
+        display: block;
+        line-height: 0.6;
+    }
+    .clock-text-points {
+        visibility: hidden;
+    }
+    #date-text {
+        font-size: 25pt;
+    }
+}
